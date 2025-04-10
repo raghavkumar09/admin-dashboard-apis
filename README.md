@@ -51,7 +51,7 @@ This directory contains the Node.js, Express, and MongoDB backend API for the Ad
     PORT=5000                                         # Port for the backend server
     FRONTEND_URL=http://localhost:5173                # Your local frontend dev URL for CORS
     ```
-    *(Note: The default admin credentials `admin@admin.com`/`admin123` are currently hardcoded in `controllers/authController.js` for demonstration purposes.)*
+    *(Note: The default admin credentials `admin@example.com`/`adminpassword` are currently hardcoded in `controllers/authController.js` for demonstration purposes.)*
 
 4.  **Ensure `uploads/` directory exists:** The `uploadMiddleware.js` attempts to create this, but manual creation might be needed depending on permissions (`mkdir uploads`).
 
