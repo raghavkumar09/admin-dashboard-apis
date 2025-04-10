@@ -1,0 +1,50 @@
+# Dependency directories
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# Optional generated folders (if applicable, e.g., for TypeScript builds)
+# dist/
+# build/
+
+# Uploads directory (user profile pictures)
+# Important: Ensure this matches the 'destination' in your Multer config
+uploads/
+
+# IDE directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Optional Mac files
+.DS_Store
+
+# Optional Windows files
+Thumbs.db
+
+# Coverage directory (Jest, Istanbul, etc.)
+coverage/
+.nyc_output/
+
+# Optional production build files (if bundling backend)
+# *.bundle.js
+# *.bundle.map
