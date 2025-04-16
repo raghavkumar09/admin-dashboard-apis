@@ -19,7 +19,7 @@ exports.getStats = async (req, res) => {
         });
 
         const completedProfiles = await User.countDocuments({
-            profilePicturePath: { $exists: true, $in:[null, ''] }
+            profilePicturePath: { $nin: [null, ''] }
         });
 
         res.status(200).json({
